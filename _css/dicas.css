@@ -216,22 +216,16 @@ hr.propa{
 }
 
 .container-title h1 {
-    color: rgb(204, 0, 255);
-    font-size: 4.8rem;
-    text-shadow: 2px 2px 2px rgb(95, 20, 237);
-    cursor: pointer;
-    transition: 0.5s;
-    background-color: rgb(27, 196, 139);
-    border-radius: 10px;
-    width: 555px;
-    padding-left: 50px;
-    padding-bottom: 5px;
+  color: rgb(95, 20, 237);
+  font-size: 4.8rem;
+  text-shadow: 2px 2px 2px rgb(95, 20, 237);
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .title h1:hover {
     letter-spacing: 0px;
     text-shadow: 2px 2px 2px rgb(33, 200, 206);
-    background-color: rgb(95, 20, 237);
 }  
 
 .container-title p {
@@ -310,7 +304,7 @@ hr.propa{
     position: relative;
     background-color: rgb(95, 20, 237);
     border-radius: 10px;
-    width: 700px;
+    width: 480px;
     height: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -326,7 +320,7 @@ hr.propa{
 }
 
 #perfumesdois:hover {
-    width: 705px;
+    width: 485px;
     font-size: 35px;
     letter-spacing: 0.1px;
     box-shadow: 0px 0px 10px rgb(95, 20, 237);
@@ -372,29 +366,8 @@ figure.foto-legenda:hover {
 }
 
 .compre h1:hover {
-    color: rgb(223, 20, 241);
+    color: rgb(33, 200, 206);
     font-size: 35px;
-}
-
-.novidade{
-    opacity: 1;
-    display: flex;
-    position: absolute;
-    background-color: rgb(223, 20, 241);
-    width: 248px;
-    justify-content: center;
-    align-items: center;
-    top: 230px;
-    padding-bottom: 1.5px;
-}
-
-.novidade h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    font-size: 15px;
 }
 
 figure.foto-legenda:hover > .compre {
