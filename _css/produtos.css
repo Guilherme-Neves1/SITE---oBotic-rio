@@ -216,15 +216,15 @@ hr.propa{
 }
 
 .container-title h1 {
-  color: rgb(95, 20, 237);
-  font-size: 4.8rem;
-  text-shadow: 2px 2px 2px rgb(95, 20, 237);
-  cursor: pointer;
-  transition: 0.5s;
-  background-color: rgb(16, 170, 231);
-  border-radius: 10px;
-  width: 480px;
-  padding-left: 80px;
+    color: rgb(95, 20, 237);
+    font-size: 4.8rem;
+    text-shadow: 2px 2px 2px rgb(95, 20, 237);
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(16, 170, 231);
+    border-radius: 10px;
+    width: 480px;
+    padding-left: 80px;
 }
 
 .title h1:hover {
@@ -405,6 +405,14 @@ figure.foto-legenda:hover {
     color: white;
     font-size: 30px;
     transition: 0.5s;
+}
+
+.compre a:active {
+    text-decoration: none;
+}
+
+.foto-legenda .compre .compreh1 a {
+    text-decoration: none;
 }
 
 .compre h1:hover {
